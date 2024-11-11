@@ -23,10 +23,68 @@
 
 <div>
 <label for="email">email</label>
-<input type="email" name="email" id="email" placeholder="email">
+<input type="email" name="email" id="email" placeholder="email"/>
 </div>
 
+
+<div>
+<label for="telefone">telefone</label>
+
+<input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone"/>
+</div>
+
+<div>
+    <label for="estados"> Estado</label>
+    <select>
+        <option value="AC">AC</option>
+        <option value="SP">SP</option>
+        <option value="RJ">RJ</option>
+    </select>
+</div>
 </fieldset>
+
+<fieldset>
+    <legend> Informações</legend>
+    <label for="site">Site</label>
+    <input type="url" id="site" name="site"/>
+
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" placeholder="Digite sua senha"/>
+
+    <label for="nascimento"> Data de nascimento</label>
+    <input type="date" name="nascimento" id="nascimento"/>
+</fieldset>
+
+<fieldset>
+
+<input type="checkbox" name="autorizacao" checked />
+<label for="autorizacao">Concordo que utilizem meus dados bancários e espalhem na internet</label>
+
+<p>O uso de nosso site e aplicativo é regulado por nossos termos de uso. Maiores informações sobre como usamos seus dados pessoais podem ser encontradas em nossa Politica de pivacidade e Política de cookies</p>
+
+<img src="https://images.vexels.com/media/users/3/201138/isolated/lists/143b8e1550deda3eadf5a8c0045cbb0f-robo-de-brinquedo-plano.png" alt="" width="100"/>
+
+<label for="documento">Documento PDF</label>
+<input type="file" id="documento" name="documento" accept="documento/pdf"/>
+</fieldset>
+
+<fieldset>
+
+    <img src="https://images.vexels.com/media/users/3/201138/isolated/lists/143b8e1550deda3eadf5a8c0045cbb0f-robo-de-brinquedo-plano.png" alt="" width="100"/>
+
+    <input type="radio" name="robo" id="sourobo"/>
+    <label for="sim">Sou um robô</label>
+
+    <input type="radio" name="robo" id="naosourobo"/>
+    <label for="nao">Não sou um robô</label>
+    <input type="radio" name="robo" id="talvezeuseja"/>
+    <label for="talvez">Talvez eu seja um robô</label>
+</fieldset>
+
+
+<input type="submit" value="Enviar"/>
+<button>Enviar</button>
+
 
         </form>
     </main>
